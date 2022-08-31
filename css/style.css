@@ -1,0 +1,431 @@
+@charset "UTF-8";
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1100px;
+}
+.container .card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.container .card .card-body {
+  padding: 15px;
+  text-align: center;
+}
+.container .card .card-body a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid;
+  color: blue;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.container .card .card-body a:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+#footer {
+  height: 20vh;
+}
+#footer #footer1 {
+  font-weight: bold;
+}
+
+.instagram {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid;
+  color: orange;
+  border-radius: 5px orange;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.instagram:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+.facebook {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid;
+  color: orange;
+  border-radius: 5px orange;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.facebook:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+.mail {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid;
+  color: orange;
+  border-radius: 5px orange;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.mail:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+#header {
+  height: 25vh;
+  margin-bottom: 5px;
+}
+
+#quereparamos {
+  height: 30vh;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 2%, rgb(45, 154, 253) 100%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#lista¨ {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#ubicacion {
+  height: 5vh;
+}
+
+#main {
+  height: 85vh;
+}
+
+.iconos {
+  width: 25px;
+  height: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#consultanos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 2%, rgb(45, 154, 253) 100%);
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: antiquewhite;
+}
+
+.titulos {
+  font-family: "Mochiy Pop One", sans-serif;
+  background-color: rgb(243, 165, 50);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#ubicacionTexto {
+  font-size: x-small;
+  font-family: fantasy;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-animation-name: animacion1;
+          animation-name: animacion1;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes animacion1 {
+  0% {
+    font-size: large;
+  }
+  45% {
+    font-size: x-large;
+  }
+  100% {
+    font-size: xx-large;
+  }
+}
+
+@keyframes animacion1 {
+  0% {
+    font-size: large;
+  }
+  45% {
+    font-size: x-large;
+  }
+  100% {
+    font-size: xx-large;
+  }
+}
+#carr1 {
+  margin-left: 30%;
+}
+
+#carr2 {
+  margin-left: 30%;
+}
+
+#carr3 {
+  margin-left: 30%;
+}
+
+#carr4 {
+  margin-left: 10%;
+}
+
+#carr5 {
+  margin-left: 30%;
+}
+
+#botonatras {
+  background-color: black;
+}
+
+#botonadelante {
+  background-color: black;
+}
+
+.parrafos2 {
+  font-size: 1cm;
+  font-family: "Ubuntu", sans-serif;
+  background-color: coral;
+  text-align: center;
+  width: auto;
+}
+
+#fotolocal {
+  width: 100%;
+  height: 80%;
+  margin-top: 5px;
+}
+
+#Quereparamoslista {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0.5fr 1fr;
+  grid-template-columns: 1fr 0.5fr 1fr;
+      grid-template-areas: "lis1 imagencentral lis2";
+}
+
+#lis1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: lis1;
+}
+
+.Quereparamos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  background-color: orange;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#lis2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: lis2;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  min-height: 100vh;
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    min-height: 100vh;
+  }
+
+  #header {
+    height: 30vh;
+    margin-bottom: 50px;
+    z-index: 10;
+  }
+
+  #main {
+    height: 180vh;
+    z-index: 2;
+  }
+
+  #footer {
+    height: 60vh;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1100px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .parrafos2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1cm;
+    font-family: "Ubuntu", sans-serif;
+    background-color: coral;
+    text-align: center;
+    width: auto;
+    text-justify: auto;
+  }
+
+  #fotolocal {
+    width: 100%;
+    height: 50%;
+    margin-top: 5px;
+  }
+
+  .mapa {
+    width: 450px;
+    height: 450px;
+  }
+
+  #logo {
+    height: 200px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 10px solid orange;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    justify-items: baseline;
+  }
+
+  #carr1 {
+    margin-left: 20%;
+  }
+
+  #carr2 {
+    margin-left: 10%;
+  }
+
+  #carr3 {
+    margin-left: 10%;
+  }
+
+  #carr4 {
+    margin-left: 10%;
+  }
+
+  #carr5 {
+    margin-left: 20%;
+  }
+}
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) { ... }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... } */
