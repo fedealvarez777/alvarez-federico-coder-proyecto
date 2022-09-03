@@ -80,13 +80,13 @@ flex-wrap: wrap;
     margin-left: 20%;
 }
 #carr2{
-    margin-left: 10%;
+    margin-left: 20%;
 }
 #carr3{
-    margin-left: 10%;
+    margin-left: 20%;
 }
 #carr4{
-    margin-left: 10%;
+    margin-left: 20%;
 }
 #carr5{
     margin-left: 20%;
@@ -97,14 +97,90 @@ flex-wrap: wrap;
 
 
 
-/* // `md` applies to small devices (landscape phones, less than 768px) */
-/* @media (max-width: 767.98px) { ... }
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+
+    #header{
+        height:30vh;
+        margin-bottom: 50px;
+        z-index:10;
+        
+    }
+    #main{
+    
+        height: 180vh;
+        z-index: 2;
+    }
+
+
+    body{
+        display:grid;
+        min-height:100vh;
+    }
+
+    #footer{
+        height:60vh;
+        width: 100%;
+    }
+
+}
+
 
 // `lg` applies to medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
+@media (max-width: 991.98px) { 
 
-// `xl` applies to large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
+    body{
+        display:grid;
+        min-height:100vh;
+    }
 
-// `xxl` applies to x-large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... } */
+    #header{
+        height:30vh;
+        margin-bottom: 50px;
+        z-index:10;
+        
+    }
+    #main{
+    
+        height: 180vh;
+        z-index: 2;
+    }
+
+
+
+
+    
+    #footer{
+        height:100vh;
+        width: 100%;
+    
+    }
+
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    body{
+        display:grid;
+        min-height:100vh;
+    }
+
+    #header{
+        height:30vh;
+        margin-bottom: 50px;
+        z-index:10;
+        
+    }
+    #main{
+    
+        height: 180vh;
+        z-index: 2;
+    }
+
+
+    #footer{
+        height:60vh;
+        width: 100%;
+        
+    }
+
+
+} 
