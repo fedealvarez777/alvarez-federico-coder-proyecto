@@ -326,6 +326,19 @@ body {
   }
 }
 @media (max-width: 575.98px) {
+  #listamarcas {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575.98px) {
   #carr1 {
     margin-left: 20%;
   }

@@ -23,7 +23,8 @@ body{
 @media (max-width: 575.98px) {
 body{
     display:grid;
-    min-height:100vh;
+    min-height: 100vh;
+    
 }
 
 @include background-query (rgb(199, 245, 245), mobile);
@@ -36,7 +37,7 @@ body{
 }
 #main{
 
-    height: 180vh;
+    height:180vh;
     z-index: 2;
 }
 #footer{
@@ -79,6 +80,19 @@ flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-items: baseline;
+}
+
+#listamarcas{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
 }
 
 #carr1{
