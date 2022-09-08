@@ -1,0 +1,26 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@mixin background-query ($background,$vista){
+    $vista:$vista;
+
+    body{
+        @if $vista == desktop{
+            @media (max-widht:1024px){
+                background-color: $background;
+                
+                
+            }
+        }
+
+        @else if $vista == mobile {
+            @media (max-width: 575.98px){
+            background-color: $background;
+        }
+        }
+    }
+}

@@ -95,7 +95,7 @@
 
 #header {
   height: 25vh;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #quereparamos {
@@ -105,6 +105,17 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+}
+
+#listamarcas {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  text-decoration: none;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 #ubicacion {
@@ -233,31 +244,52 @@ body {
   min-height: 100vh;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body {
     display: grid;
     min-height: 100vh;
   }
+}
+@media (max-width: 575.98px) and (max-width: 575.98px) {
+  body {
+    background-color: rgb(199, 245, 245);
+  }
+}
+@media (max-width: 575.98px) {
   #header {
     height: 30vh;
     margin-bottom: 50px;
     z-index: 10;
   }
+}
+@media (max-width: 575.98px) {
   #main {
     height: 180vh;
     z-index: 2;
   }
+}
+@media (max-width: 575.98px) {
   #footer {
     height: 40vh;
     width: 100%;
   }
+}
+@media (max-width: 575.98px) {
   .container {
     width: 100%;
     display: flex;
     max-width: 1100px;
     flex-wrap: wrap;
   }
+}
+@media (max-width: 575.98px) {
   .parrafos2 {
     display: flex;
     font-size: 1cm;
@@ -267,15 +299,21 @@ body {
     width: auto;
     text-justify: auto;
   }
+}
+@media (max-width: 575.98px) {
   #fotolocal {
     width: 100%;
     height: 50%;
     margin-top: 5px;
   }
+}
+@media (max-width: 575.98px) {
   .mapa {
     width: 450px;
     height: 450px;
   }
+}
+@media (max-width: 575.98px) {
   #logo {
     height: 200px;
     width: 100%;
@@ -286,18 +324,28 @@ body {
     align-content: center;
     justify-items: baseline;
   }
+}
+@media (max-width: 575.98px) {
   #carr1 {
     margin-left: 20%;
   }
+}
+@media (max-width: 575.98px) {
   #carr2 {
     margin-left: 20%;
   }
+}
+@media (max-width: 575.98px) {
   #carr3 {
     margin-left: 20%;
   }
+}
+@media (max-width: 575.98px) {
   #carr4 {
     margin-left: 20%;
   }
+}
+@media (max-width: 575.98px) {
   #carr5 {
     margin-left: 20%;
   }

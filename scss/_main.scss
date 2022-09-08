@@ -8,7 +8,17 @@
     align-content: center;
 }
 
-
+#listamarcas{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+}
 
 #ubicacion{
     height: 5vh;
