@@ -97,6 +97,8 @@
 #header {
   height: 25vh;
   margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: 1800px;
 }
 
 #quereparamos {
@@ -217,9 +219,9 @@
   font-family: fantasy;
   display: flex;
   width: 200px;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 100px;
   -webkit-animation-name: animacion1;
           animation-name: animacion1;
   -webkit-animation-duration: 3s;
@@ -232,25 +234,23 @@
 
 @-webkit-keyframes animacion1 {
   0% {
-    font-size: large;
-  }
-  45% {
-    font-size: x-large;
+    transform: scale(0.5);
+    transform-origin: center top;
   }
   100% {
-    font-size: xx-large;
+    transform: scale(4);
+    transform-origin: center top;
   }
 }
 
 @keyframes animacion1 {
   0% {
-    font-size: large;
-  }
-  45% {
-    font-size: x-large;
+    transform: scale(0.5);
+    transform-origin: center top;
   }
   100% {
-    font-size: xx-large;
+    transform: scale(4);
+    transform-origin: center top;
   }
 }
 #carr1 {
@@ -304,9 +304,54 @@
   margin-top: 200px;
 }
 
+.slide-top {
+  -webkit-animation: slide-top 0.9s;
+          animation: slide-top 0.9s;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.9s linear both;
+          animation: slide-bottom 0.9s linear both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 body {
   display: grid;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 * {
@@ -320,6 +365,7 @@ body {
   body {
     display: grid;
     min-height: 100vh;
+    overflow-x: hidden;
   }
 }
 @media (max-width: 575.98px) and (max-width: 575.98px) {
@@ -415,7 +461,7 @@ body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(160px);
+      transform: translateX(300px);
     }
   }
   @keyframes slide-left {
@@ -423,7 +469,7 @@ body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(160px);
+      transform: translateX(300px);
     }
   }
 }
@@ -458,6 +504,48 @@ body {
     }
     100% {
       transform: scale(1) rotateX(-360deg);
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  #ubicacionTexto {
+    font-size: x-small;
+    font-family: fantasy;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    -webkit-animation-name: animacion1;
+            animation-name: animacion1;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+}
+@media (max-width: 575.98px) {
+  @-webkit-keyframes animacion1 {
+    0% {
+      transform: scale(0.5);
+      transform-origin: center top;
+    }
+    100% {
+      transform: scale(2.5);
+      transform-origin: center top;
+    }
+  }
+  @keyframes animacion1 {
+    0% {
+      transform: scale(0.5);
+      transform-origin: center top;
+    }
+    100% {
+      transform: scale(2.5);
+      transform-origin: center top;
     }
   }
 }

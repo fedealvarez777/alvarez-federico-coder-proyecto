@@ -9,7 +9,7 @@ body{
 
     display:grid;
     min-height:100vh;
-    
+    overflow-x: hidden;
     }
 
 
@@ -24,7 +24,7 @@ body{
 body{
     display:grid;
     min-height: 100vh;
-    
+    overflow-x: hidden
 }
 
 @include background-query (rgb(199, 245, 245), mobile);
@@ -44,6 +44,7 @@ body{
     
     height:40vh;
     width: 100%;
+    
 }
 
 .container{
@@ -100,7 +101,7 @@ flex-wrap: wrap;
  }
  
  
- @keyframes slide-left{0%{transform:translateX(0)}100%{transform:translateX(160px)}}
+ @keyframes slide-left{0%{transform:translateX(0)}100%{transform:translateX(300px)}}
 
 
  .rotate-scale-down-horizontal {
@@ -126,7 +127,34 @@ flex-wrap: wrap;
 
 
 
+#ubicacionTexto {
+    font-size: x-small;
+    font-family: fantasy;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+   text-align:center;  
+   margin-right: 400px;
+   margin-bottom: 100px;
+    animation-name: animacion1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
 
+}
+
+
+@keyframes animacion1 {
+    0% {
+        transform: scale(.5);
+        transform-origin: center top
+    }
+
+    100% {
+        transform: scale(2.5);
+        transform-origin: center top
+    }
+}
 
 
 #carr1{
@@ -174,6 +202,7 @@ flex-wrap: wrap;
     #footer{
         height:60vh;
         width: 100%;
+        
     }
 
     #parrafos2{
@@ -215,6 +244,7 @@ flex-wrap: wrap;
     #footer{
         height:60vh;
         width: 100%;
+        
     
     }
 
