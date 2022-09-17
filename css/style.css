@@ -126,7 +126,7 @@
 }
 
 #main {
-  height: 85vh;
+  height: 90vh;
 }
 
 .iconos {
@@ -245,7 +245,6 @@
 .slide-top {
   -webkit-animation: slide-top 0.9s;
           animation: slide-top 0.9s;
-  margin-top: 10px;
 }
 
 @-webkit-keyframes slide-top {
@@ -268,7 +267,6 @@
 .slide-bottom {
   -webkit-animation: slide-bottom 0.9s linear both;
           animation: slide-bottom 0.9s linear both;
-  margin-bottom: 10px;
 }
 
 @-webkit-keyframes slide-bottom {
