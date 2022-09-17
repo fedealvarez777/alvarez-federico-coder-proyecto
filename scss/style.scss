@@ -23,7 +23,7 @@ body{
 @media (max-width: 575.98px) {
 body{
     display:grid;
-    min-height: 100vh;
+     min-height: 100vh;
     overflow-x: hidden
 }
 
@@ -37,7 +37,7 @@ body{
 }
 #main{
 
-    height:180vh;
+    height:250vh;
     z-index: 2;
 }
 #footer{
@@ -96,12 +96,12 @@ flex-wrap: wrap;
     
 }
 
-.slide-left{
-    animation:slide-left 0.7s linear both; 
- }
+// .slide-left{
+//     animation:slide-left 0.7s linear both; 
+//  }
  
  
- @keyframes slide-left{0%{transform:translateX(0)}100%{transform:translateX(300px)}}
+//  @keyframes slide-left{0%{transform:translateX(0)}100%{transform:translateX(300px)}}
 
 
  .rotate-scale-down-horizontal {

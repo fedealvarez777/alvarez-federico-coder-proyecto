@@ -382,7 +382,7 @@ body {
 }
 @media (max-width: 575.98px) {
   #main {
-    height: 180vh;
+    height: 250vh;
     z-index: 2;
   }
 }
@@ -447,30 +447,6 @@ body {
     align-items: baseline;
     margin-bottom: 50px;
     margin-top: 20px;
-  }
-}
-@media (max-width: 575.98px) {
-  .slide-left {
-    -webkit-animation: slide-left 0.7s linear both;
-            animation: slide-left 0.7s linear both;
-  }
-}
-@media (max-width: 575.98px) {
-  @-webkit-keyframes slide-left {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(300px);
-    }
-  }
-  @keyframes slide-left {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(300px);
-    }
   }
 }
 @media (max-width: 575.98px) {
