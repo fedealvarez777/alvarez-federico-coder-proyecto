@@ -56,20 +56,20 @@
 }
 
 
-.slide-left {
-    animation: slide-left 0.9s linear both;
-}
+// .slide-left {
+//     animation: slide-left 0.9s linear both;
+// }
 
 
-@keyframes slide-left {
-    0% {
-        transform: translateX(0)
-    }
+// @keyframes slide-left {
+//     0% {
+//         transform: translateX(0)
+//     }
 
-    100% {
-        transform: translateX(650px)
-    }
-}
+//     100% {
+//         transform: translateX(650px)
+//     }
+// }
 
 
 .rotate-scale-down-horizontal {
@@ -205,6 +205,7 @@
 
 .slide-top {
     animation: slide-top 0.9s;
+    margin-top: 10px;
 
 }
 
@@ -219,7 +220,8 @@
 }
 
 .slide-bottom {
-    animation: slide-bottom 0.9s linear both
+    animation: slide-bottom 0.9s linear both;
+    margin-bottom: 10px;
 }
 
 @keyframes slide-bottom {
