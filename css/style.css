@@ -223,12 +223,15 @@
 .parrafos2 {
   font-size: 30px;
   font-family: "Ubuntu", sans-serif;
-  background-color: lightblue;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 2%, rgb(45, 154, 253) 100%);
   text-align: center;
   width: auto;
   height: auto;
   margin-top: 30px;
   margin-bottom: 30px;
+  color: lightgoldenrodyellow;
+  border-radius: 10px;
 }
 
 #fotolocal {
