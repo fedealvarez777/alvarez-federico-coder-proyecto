@@ -44,19 +44,3 @@ transition: all 400ms ease;
         }
 
 
-.mail{
-    text-decoration: none;
-    display: inline-block;
-    padding: 5px;
-    margin-top: 10px;
-    border: 1px solid;
-    color: orange;
-    border-radius: 5px orange;
-    transition: all 400ms ease;
-
-
-    &:hover{
-            background-color: orange ;
-             color:#fff;
-    }
-}
