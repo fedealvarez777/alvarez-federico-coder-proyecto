@@ -79,21 +79,6 @@
   color: #fff;
 }
 
-.mail {
-  text-decoration: none;
-  display: inline-block;
-  padding: 5px;
-  margin-top: 10px;
-  border: 1px solid;
-  color: orange;
-  border-radius: 5px orange;
-  transition: all 400ms ease;
-}
-.mail:hover {
-  background-color: orange;
-  color: #fff;
-}
-
 #header {
   height: 25vh;
   margin-bottom: 10px;
@@ -212,25 +197,15 @@
   margin-left: 30%;
 }
 
-#botonatras {
-  background-color: black;
-}
-
-#botonadelante {
-  background-color: black;
-}
-
 .parrafos2 {
   font-size: 30px;
   font-family: "Ubuntu", sans-serif;
-  background: rgb(0, 0, 0);
-  background: radial-gradient(circle, rgb(0, 0, 0) 2%, rgb(45, 154, 253) 100%);
   text-align: center;
   width: auto;
   height: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  color: lightgoldenrodyellow;
+  color: rgb(12, 2, 144);
   border-radius: 10px;
 }
 
@@ -243,62 +218,20 @@
 
 #carrousel1 {
   margin-top: 200px;
-}
-
-.slide-top {
-  -webkit-animation: slide-top 0.9s;
-          animation: slide-top 0.9s;
-}
-
-@-webkit-keyframes slide-top {
-  0% {
-    transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes slide-top {
-  0% {
-    transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-.slide-bottom {
-  -webkit-animation: slide-bottom 0.9s linear both;
-          animation: slide-bottom 0.9s linear both;
-}
-
-@-webkit-keyframes slide-bottom {
-  0% {
-    transform: translateY(100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes slide-bottom {
-  0% {
-    transform: translateY(100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-body {
-  display: grid;
-  min-height: 100vh;
-  overflow-x: hidden;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgb(0, 0, 0) 2%, rgb(45, 154, 253) 100%);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
