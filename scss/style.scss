@@ -5,9 +5,6 @@
 @import"./_header.scss";
 @import"./_main.scss";
 
-* {
-    @include reset
-}
 
 
 body {
@@ -17,7 +14,9 @@ body {
     overflow-x: hidden;
 }
 
-
+* {
+    @include reset
+}
 
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
