@@ -5,17 +5,15 @@
 @import"./_header.scss";
 @import"./_main.scss";
 
-
+* {
+    @include reset
+}
 
 body {
 
     display: grid;
     min-height: 100vh;
     overflow-x: hidden;
-}
-
-* {
-    @include reset
 }
 
 
